@@ -1,0 +1,26 @@
+{
+  "name": "mySDK",
+  "summary": "mySDK",
+  "homepage": "https://bitrise.io",
+  "version": "1.0.0",
+  "swift_version": "5.1.3",
+  "authors": {
+      "Shams Ahmed": "shams.ahmed@bitrise.io"
+  },
+  "license": {
+    "type": "Custom"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "SystemConfiguration",
+    "libc++",
+    "libz"
+  ],
+  "source": { 
+      "http": "https://github.com/shams-ahmed/mySDK.git"
+  },
+  "vendored_frameworks": "scr/libmySDK.a",
+  "vendored_libraries": "scr/libmySDK.a"
+}
