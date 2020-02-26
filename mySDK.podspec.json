@@ -19,7 +19,7 @@
     "libz"
   ],
   "source": { 
-      "http": "https://github.com/shams-ahmed/mySDK.git"
+      "git": "https://github.com/shams-ahmed/mySDK.git"
   },
   "vendored_frameworks": "scr/libmySDK.a",
   "vendored_libraries": "scr/libmySDK.a"
